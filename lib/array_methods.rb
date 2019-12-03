@@ -3,10 +3,11 @@ def find_element_index(array, value_to_find)
   array.length.times{|index|
   binding.pry
   if array[index] == value_to_find
-    p index
+   result = index
   else
     puts nil
   end}
+  result
 end
 
 
