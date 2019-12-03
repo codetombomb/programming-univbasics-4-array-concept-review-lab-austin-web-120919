@@ -1,6 +1,14 @@
+require "pry" 
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  binding.pry
+  array.length.times{|index|
+  if array[index] == value_to_find
+    p index
+  else
+  end}
 end
+
+
 
 def find_max_value(array)
   # Add your solution here
