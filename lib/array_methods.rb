@@ -1,7 +1,7 @@
 require "pry" 
 def find_element_index(array, value_to_find)
-  binding.pry
   array.length.times{|index|
+  binding.pry
   if array[index] == value_to_find
     p index
   else
