@@ -2,7 +2,7 @@ require "pry"
 def find_element_index(array, value_to_find)
   result = nil
   array.length.times{|index|
-  binding.pry
+  #binding.pry
   if array[index] == value_to_find
    result = index
   end}
