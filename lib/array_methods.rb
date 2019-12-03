@@ -33,6 +33,7 @@ def find_min_value(array)
      result = el 
    elsif el < result
    result = el
+   end
  end
  result
 end
