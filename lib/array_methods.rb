@@ -15,7 +15,10 @@ end
 def find_max_value(array)
   result = nil
   array.each do |el|
-    binding.pry 
+    if result == nil
+      binding.pry
+      result = el
+    end
   end
 end
 
