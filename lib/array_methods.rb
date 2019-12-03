@@ -18,6 +18,8 @@ def find_max_value(array)
     if result == nil
       binding.pry
       result = el
+    elsif el > result
+      result = el
     end
   end
 end
