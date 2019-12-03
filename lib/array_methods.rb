@@ -13,7 +13,10 @@ end
 
 
 def find_max_value(array)
-  
+  result = nil
+  array.each do |el|
+    binding.pry 
+  end
 end
 
 def find_min_value(array)
