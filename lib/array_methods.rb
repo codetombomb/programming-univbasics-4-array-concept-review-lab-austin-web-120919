@@ -34,4 +34,5 @@ def find_min_value(array)
    elsif el < result
    result = el
  end
+ result
 end
